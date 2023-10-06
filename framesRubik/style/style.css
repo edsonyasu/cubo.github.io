@@ -1,0 +1,83 @@
+.fondoCubos{
+	
+}
+
+.invisible30{
+	height: 30vh;
+}
+
+.invisible70{
+	height: 45vh;
+}
+
+.invisible70, .invisible30{
+	opacity: 0%;
+}
+
+.izquierda{
+	text-align: left;
+	max-height: 80vh;
+}
+
+.derecha{
+	text-align: right;
+	max-height: 80vh;
+}
+
+.centroTabla{
+	height: 98vh;
+	background-color: transparent;
+
+}
+
+
+
+table, p{
+	font-size: 50px;
+	font-family: sans-serif;
+}
+
+img{
+	height: 90vh;
+}
+
+div{
+	height: 100vh;
+}
+
+.mover{
+	background-color: darkgreen;
+	color: white;
+	border-radius: 15px 15px 15px 15px;
+	/*height: 100%;*/
+
+	max-height: 90vh;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+div{
+	width: 100vw;
+	height: 100vh;
+
+	background-image: url(cubo1.png);
+	
+	background-origin: content-box;
+	background-repeat: no-repeat;
+	background-size: 90vh;
+	background-position: center;
+}
+
+.cubo2{
+	background-image: url(cubo2.png);
+}
+
+p{
+	text-align: center;
+}
+
+.altura{
+	max-height: 90vh;
+}
